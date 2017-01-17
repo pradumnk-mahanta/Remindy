@@ -1,0 +1,25 @@
+{
+  "name": "Remindy",
+  "version": "0.2.5",
+  "description": "Remember Yourself",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradumnk-mahanta/Remindy"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
+}

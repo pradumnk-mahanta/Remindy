@@ -1,0 +1,6 @@
+{
+  "name": "Remindy",
+  "description": "Remember Yourself",
+  "repository": "https://github.com/pradumnk-mahanta/Remindy",
+  "keywords": ["node", "express", "static"],
+}
