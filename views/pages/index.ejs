@@ -8,18 +8,18 @@
 
 <div class="jumbotron text-center">
   <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
     <h1>Re-Mindy</h1>
     <p>Don't forget what is important to you. Let us help you to remind you whatever you need.</p>
-    <a type="button" class="btn btn-lg btn-default" href=""><span class="glyphicon glyphicon-flash"></span> Add Submit Here.</a>
-    <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-download"></span> Need to add a lot more stuff.</a>
+    <form id="remindData">
+    <p>Remind me to <input type="text" class="input" id="remindText"> on <input type="date" name="input" class="input" id="onDate"> at <input id="onTime" type="time" class="input">.</p>
+    <p>My phone number is +<input id="countryCode" type="number" class="inputcc" maxlength="2" size="2" value="91"> <input id="phoneNumber" type="number" class="input" size="10" maxlength="10">.</p>
+    </form>
+    <p><a type="button" class="btn btn-lg btn-primary" onclick="remindMe()"><span class="glyphicon glyphicon-flash"></span> Let's Go.</a></p>
   </div>
 </div>
 <div class="container">
   <div class="alert alert-info text-center" role="alert">
-    To look at the source code this application, head over to the <a href="https://github.com/pradumnk-mahanta/Remindy" class="alert-link">my Github</a> Profile.
+    To look at the source code of this application, head over to my <a href="https://github.com/pradumnk-mahanta/Remindy" class="alert-link">Github Profile</a>.
   </div>
 </div>
 </body>
